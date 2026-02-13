@@ -1,31 +1,30 @@
-# OpenClaw Policy Check
+# OpenClaw Shield Quick Scan
 
 ## Overview
 
-OpenClaw Policy Check is a simple validation skill that analyzes policy or configuration data and verifies whether it follows expected structure and basic rules.
+OpenClaw Shield Quick Scan is a lightweight scanning skill that performs fast checks to identify obvious issues or signals.
 
-This skill is designed for **learning and testing the ClawHub skill upload workflow**, not for deep analysis.
+It prioritizes **speed and simplicity** and is intended for **learning and testing skill behavior**, not comprehensive scanning.
 
 ---
 
 ## What this skill does
 
-* Loads a policy or configuration input
-* Performs basic checks (presence, structure, simple validation rules)
-* Reports whether the policy passes or fails validation
-* Outputs clear, readable results
+* Runs quick checks against the provided input or target
+* Identifies obvious or common issues
+* Produces a fast result without deep inspection
 
 ---
 
 ## Inputs
 
-* Policy or configuration data (format depends on implementation)
+* Target or data to scan (based on implementation)
 
 ---
 
 ## Output
 
-* Validation result (pass / fail)
-* Basic details about missing or invalid elements (if any)
+* Quick scan result
+* Basic findings or status indicators
 
 ---
